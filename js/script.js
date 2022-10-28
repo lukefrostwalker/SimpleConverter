@@ -24,4 +24,3 @@ function toKilometer() {
     document.getElementById("output").innerHTML = inputValue / 39370;
     document.getElementById("output_unit").innerHTML = "Kilometer";
 }
-@media
