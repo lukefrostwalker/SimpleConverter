@@ -23,14 +23,14 @@ function toCentimeter() {
 function toMeter() {
     let inputValue = document.getElementById("inches").value;
     const meter = 39.37
-    const ans = inputValue * meter
+    const ans = inputValue / meter
     document.getElementById("output").innerHTML = ans;
     document.getElementById("output_unit").innerHTML = "Meter";
 }
 function toKilometer() {
     let inputValue = document.getElementById("inches").value;
     const kilo = 39370
-    const ans = inputValue * kilo
+    const ans = inputValue / kilo
     document.getElementById("output").innerHTML = ans;
     document.getElementById("output_unit").innerHTML = "Kilometer";
 }
